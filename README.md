@@ -44,4 +44,5 @@ CREATE TABLE news (
 ・about画面:http://localhost:8080/index.php/about  
 ・news画面:http://localhost:8080/index.php/news  
 ・create画面:http://localhost:8080/index.php/news/create  
+※最小限の環境構築のため英数でデータ作成してください
   

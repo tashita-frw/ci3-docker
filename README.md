@@ -9,12 +9,22 @@ git clone git@github.com:tashita-frw/ci3-docker
 
 2.DockerDesktopアプリを立ち上げる  
 
-3.プロジェクト直下で、以下のコマンドを実行する  
+3.プロジェクト直下に移動し、以下のコマンドを実行する  
+```
+cd ci3-docker
+```
 ```
 docker-compose up -d --build
 ```
 
 4.dbコンテナに入り、mysqlで下記クエリを実行
+```
+docker-compose exec db bash
+```
+```
+mysql -u ci3user -p
+```
+※passwordは、docker-compose.ymlファイル参照
 ```
 USE ci3db
 ```

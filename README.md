@@ -16,6 +16,9 @@ docker-compose up -d --build
 
 4.dbコンテナに入り、mysqlで下記クエリを実行
 ```
+USE ci3db
+```
+```
 CREATE TABLE news (
         id int(11) NOT NULL AUTO_INCREMENT,
         title varchar(128) NOT NULL,

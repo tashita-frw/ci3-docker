@@ -27,8 +27,8 @@ CREATE TABLE news (
 ```
 
 # URL  
-・home画面:http://localhost/8080  
-・about画面:http://localhost/8080/index.php/view/about
-・news画面:http://localhost/8080/index.php/view/about  
-・create画面:http://localhost/8080/index.php/view/about  
+・home画面:http://localhost:8080  
+・about画面:http://localhost:8080/index.php/about  
+・news画面:http://localhost:8080/index.php/news  
+・create画面:http://localhost:8080/index.php/news/create  
   
